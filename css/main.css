@@ -1233,7 +1233,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #abd985;
+  background: #a896f0;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -1291,9 +1291,11 @@ pre code {
   display: inline-block;
 }
 .site-author-image {
-  border: 2px solid #333;
-  max-width: 96px;
+  border-radius: 100%;
   padding: 2px;
+  border: 2px dashed #fff;
+  animation: cycle 2s 0.5s forwards;
+  transition: border-radius 2s;
 }
 .site-author-name {
   color: #f5f5f5;
