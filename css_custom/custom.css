@@ -1,0 +1,12 @@
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("/images/111.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  #footer a {
+    color: #eee;
+  }
+}
